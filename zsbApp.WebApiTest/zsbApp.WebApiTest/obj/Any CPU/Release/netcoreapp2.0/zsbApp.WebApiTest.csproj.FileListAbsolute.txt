@@ -1,0 +1,10 @@
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\bin\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.deps.json
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\bin\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.runtimeconfig.json
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\bin\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.runtimeconfig.dev.json
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\bin\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.dll
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\bin\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.pdb
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\obj\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.csproj.CoreCompileInputs.cache
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\obj\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.AssemblyInfoInputs.cache
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\obj\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.AssemblyInfo.cs
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\obj\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.dll
+E:\Code\GitHub\zsbApp.HTMLCallWebApi\zsbApp.WebApiTest\zsbApp.WebApiTest\obj\Any CPU\Release\netcoreapp2.0\zsbApp.WebApiTest.pdb
