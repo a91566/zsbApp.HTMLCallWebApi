@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>1111</title>
     <script src="js/jquery.1.10.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
     <script>    
         $(function(){
             alert("123");
@@ -20,15 +21,24 @@
     </script>
     <script>
         $(function () {
-            $.ajax({
-                type: 'GET',
-                url: 'http://localhost:2000/api/values',
-                dataType: 'JSON',
-                success: function (data) {
-                    alert(data);
-                }
-                
-            });
+            var x = $.cookie('c.test');
+            var y = $.cookie('c.test11');
+            if(x===undefined)
+            {
+                $.ajax({
+                    type: 'GET',
+                    url: 'http://localhost:2000/api/values',
+                    dataType: 'JSON',
+                    success: function (data) {
+                        $.cookie('c.test', data, { expires: 7 });
+                        alert("访问Api获得数据："+data);
+                    }                
+                });
+            }
+            else
+            {
+                alert("访问cookie获得数据："+x);                
+            }
         })
     </script>
 </head>
