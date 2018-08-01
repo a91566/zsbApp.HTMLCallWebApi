@@ -11,11 +11,22 @@ namespace zsbApp.WebApiTest.Controllers
     public class ValuesController : Controller
     {
         // GET api/values
+        //[HttpGet]
+        //[EnableCors("any")]
+        //public IEnumerable<string> Get1()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
+
+        // GET api/values
         [HttpGet]
         [EnableCors("any")]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            dynamic x = new System.Dynamic.ExpandoObject();
+            x.Code = 200;
+            x.Data = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            return Json(x);
         }
 
         // GET api/values/5
